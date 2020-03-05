@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="28sp"
+        android:text="@string/DressUpGame"
+        android:gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_body"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/body" />
+
+        <ImageView
+            android:id="@+id/iv_hat"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/hat" />
+
+        <ImageView
+            android:id="@+id/iv_ears"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/ears" />
+
+        <ImageView
+            android:id="@+id/iv_eyes"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/eyes" />
+
+        <ImageView
+            android:id="@+id/iv_eyebrows"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/eyebrows" />
+        <ImageView
+            android:id="@+id/iv_glasses"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/glasses" />
+
+
+        <ImageView
+            android:id="@+id/iv_nose"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/nose" />
+
+        <ImageView
+            android:id="@+id/iv_shoes"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/shoes" />
+
+        <ImageView
+            android:id="@+id/iv_mouth"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/mouth" />
+
+
+
+        <ImageView
+            android:id="@+id/iv_mustache"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/mustache" />
+
+        <ImageView
+            android:id="@+id/iv_arms"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@mipmap/arms" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <CheckBox
+            android:id="@+id/cb_shoes"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/shoes"
+            android:onClick="cd_shoesChecked"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_arms"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="200dp"
+            android:text="@string/arms"
+            android:onClick="cd_armsChecked"/>
+
+        <CheckBox
+            android:id="@+id/cb_ears"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/ears"
+            android:onClick="cd_earsChecked"/>
+
+        <CheckBox
+            android:id="@+id/cb_eyes"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="200dp"
+            android:text="@string/eyes"
+            android:onClick="cd_eyesChecked"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_hat"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/hat"
+            android:onClick="cd_hatChecked"/>
+
+        <CheckBox
+            android:id="@+id/cb_glasses"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="200dp"
+            android:text="@string/glasses"
+            android:onClick="cd_galssesChecked"/>
+        <CheckBox
+            android:id="@+id/cb_mouth"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/mouth"
+            android:onClick="cd_mouthChecked" />
+
+        <CheckBox
+            android:id="@+id/cb_mustache"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="200dp"
+            android:text="@string/mustache"
+            android:onClick="cd_mustacheChecked"/>
+
+        <CheckBox
+            android:id="@+id/cb_nose"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/nose"
+            android:onClick="cd_noseChecked"/>
+        <CheckBox
+            android:id="@+id/cb_eyebrows"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_marginStart="200dp"
+            android:text="@string/eyebrows"
+            android:onClick="cd_eyebrowsChecked"/>
+        </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
